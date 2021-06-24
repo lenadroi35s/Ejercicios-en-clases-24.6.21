@@ -49,16 +49,15 @@ int main() {
         }
     }
     cout<<"La sumatoria es :" <<acmf <<endl;
-    //6. for anidados(un for dentro de otro for)
-    //imprimir un ractangulo de "*"
-    int ar,rr;
-    cout<< "Impresion del triangulo"<<endl;
-    for(ar=1; ar<=5; ar++)
-    {
-        for(rr=1; rr<=10; rr++)
-        {
+    //6. Imprimir un rectangulo de asteriscos
+    //**
+    //**
+    cout<<endl<<"Impresion de un rectangulo"<<endl;
+    for(int b=1;b<=5;b++){
+        for(int c=1;c<=10;c++){
             cout<<"*";
         }
+        cout<<endl;
     }
     cout<<endl;
     //7.- imprimir las 10 primeras tablas
